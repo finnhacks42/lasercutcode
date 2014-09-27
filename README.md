@@ -18,13 +18,11 @@ We will use the Processing language, which is essentially Java with some additio
 
 This repository contains a number of demo scripts to get started. Clone it or download and unzip the zip file. Start up Processing and open up one of the demo scripts. 
 
-* [demo1](demo1/rotate.md): start here if you're a beginner 
+* [demo1](demo1/rotate.md): start here if you're a beginner ![Rotated Image](/demo1/rotate/rotated.png)
 
-![Rotated Image](/demo1/rotate/rotated.png)
-Format: ![Alt Text](url)
 
-* demo2: intermediate
-![Bubbles](/demo2/bubbles/bubbles.png)
+
+* demo2: intermediate: ![Bubbles](/demo2/bubbles/bubbles.png)
 
 * demo3: more advanced.
 
