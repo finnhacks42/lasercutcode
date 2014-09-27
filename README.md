@@ -19,7 +19,8 @@ We will use the Processing language, which is essentially Java with some additio
 This repository contains a number of demo scripts to get started. Clone it or download and unzip the zip file. Start up Processing and open up one of the demo scripts. 
 
 * demo1: start here if you're a beginner [Read more words!](demo1/rotate.md)
-
+![GitHub Logo](/demo1/logo13176.png)
+Format: ![Alt Text](url)
 
 * demo2: intermediate
 
