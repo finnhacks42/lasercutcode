@@ -24,9 +24,7 @@ void setup() {
 void draw() {
 
   if (theta < 365) {
-  // call this function before you want to make a set of transformations to your drawing 
-    pushMatrix(); 
-  
+
     // applies a translation to your drawing, 
     // if you imagine your drawing as a piece of paper with a grid layed over it, then this corresponds to shifting the grid so its corner is now in the middle of the paper
     translate(widthPixels/2.0, heightPixels/2.0); 
@@ -41,7 +39,7 @@ void draw() {
     // increase the angle theta - this means the rectange will be drawn rotated to a new angle the next time through the draw loop
     theta += 60;
     // call this when you have finished your transformations for this loop
-    popMatrix();
+   
   }
 }
 

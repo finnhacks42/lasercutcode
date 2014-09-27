@@ -26,7 +26,8 @@ This repository contains a number of demo scripts to get started. Clone it or do
 * [demo2](demo2/bubbles.md): intermediate: 
 * ![Bubbles](/demo2/bubbles/bubbles.png)
 
-* demo3: more advanced.
+* demo3: intermediate:
+* ![Polar](/demo3/polar/polar.png)
 
 Don't feel you have to stick with the demos though. Feel free to explore and create your own designs from scratch. 
 
