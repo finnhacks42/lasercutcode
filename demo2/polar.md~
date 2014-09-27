@@ -1,0 +1,12 @@
+This sketch draws lets you draw pretty patterns in polar coordinates. Open up polar_start.pde.
+
+We are going to create our pattern by moving a circle around on the screen. To start with lets just draw a circle.
+
+In the draw loop put 
+
+```java
+translate(width/2.0,height/2.0); //moves the reference point to the center of the drawing
+ellipse(0,0,30,30);
+```
+
+
