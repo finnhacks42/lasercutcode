@@ -18,15 +18,15 @@ We will use the Processing language, which is essentially Java with some additio
 
 This repository contains a number of demo scripts to get started. Clone it or download and unzip the zip file. Start up Processing and open up one of the demo scripts. 
 
-* demo1: start here if you're a beginner [Read more words!](demo1/rotate.md)
+* [demo1](demo1/rotate.md): start here if you're a beginner 
+
 ![Rotated Image](/demo1/rotate/rotated.png)
 
-
 * demo2: intermediate
-
+![Rotated Image](/demo2/bubbles/bubbles.png)
 * demo3: more advanced.
 
-Don't feel you have to stick with the demos though. Feel free to explore and create your own designs. 
+Don't feel you have to stick with the demos though. Feel free to explore and create your own designs from scratch. 
 
 Once you have made an image you are happy with you want to convert it to vector format for cutting. 
 
