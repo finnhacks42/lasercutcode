@@ -3,11 +3,11 @@ lasercutcode
 
 The idea of this workshop is to create a design in code which we can then cut out of wood, acrylic or card on the laser cutter. 
 
-We will use the Processing language, which is essentially Java with some additional libraries and an IDE designed to make it easy for beginners to get started. You will write code to produce a black and white bitmap image. Then you will then use a vector drawing package to transform your bitmap into a vector drawing that the laser cutter can cut. A bitmap image is just a big table of numbers which specify the color of each tiny sqaure of your image. A vector image contains a set of paths, or essentially equations that specify where the lines go. The laser cutter takes a vector image and cuts along the lines. 
+We will use the Processing language, which is essentially Java with some additional libraries and an IDE designed to make it easy for beginners to get started. You will write code to produce a black and white bitmap image. Then you will then use a vector drawing package to transform your bitmap into a vector drawing that the laser cutter can cut. A bitmap image is just a big table of numbers which specify the color of each tiny sqaure of your image. A vector image contains a set of paths, or essentially equations that specify where the lines go. The laser cutter takes a vector image and cuts along the lines.
 
-There are a number of demo scripts to get you started:
+This repository contains some demo scripts to get you started. Clone it or download the zip.  
 
-demo1: start here if you're a beginner
+demo1: start here if you're a beginner. file://demo1/rotate.md
 
 demo2: intermediate
 
