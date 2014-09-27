@@ -21,6 +21,7 @@ This repository contains a number of demo scripts to get started. Clone it or do
 * [demo1](demo1/rotate.md): start here if you're a beginner 
 
 ![Rotated Image](/demo1/rotate/rotated.png)
+Format: ![Alt Text](url)
 
 * demo2: intermediate
 ![Bubbles](/demo2/bubbles/bubbles.png)
