@@ -4,7 +4,7 @@ Start Processing and open the rotate_start.pde script (demo1/rotate_start/rotate
 
 This script contains the outline of a Processing program and you will fill it in to actually make it do stuff.
 
-If you click the little play button on the top left of the processing window, a tiny grey window should pop up. This is your 'drawing' but you haven't told you what to draw yet.
+If you click the little play button on the top left of the processing window, a tiny grey window should pop up. This is your 'drawing' but you haven't told it what to draw yet.
 
 The starting script contains 3 functions. A function is just a chunck of code that we have given a name. Whenever we want that code to run we can 'call the function'. These 3 functions are actually special functions in the Processing language, they get called for you when specific things happen. There are also some lines that start with //. These are comments. They don't do anything, they just describe what the code is doing so its easier to understand. Its always a good idea to put comments in your code, even when you are an experienced programmer. It helps you remember what you did and lets other people understand your code. So lets do some coding. 
 
@@ -47,7 +47,7 @@ This calls the rect function that draws a rectangle to the screen. There are 4 '
 
 Run your code and see what happens. 
 
-After setup is run, the draw function gets called over and over again until till you script stops. The rectangle gets drawn over and over but always on top if itself so you can't tell.
+After setup is run, the draw function gets called over and over again until your script stops. The rectangle gets drawn over and over but always on top if itself so you can't tell.
 
 Now lets make our rectangle rotate. Above the setup function with your other variables, define an integer theta to hold how far it has rotated.
 
@@ -62,15 +62,15 @@ now replace the draw function with the following code
 // this function gets called over and over again until you stop the script
 void draw() {
 
-  if (theta < 365) {
-  // call this function before you want to make a set of transformations to your drawing 
+  if (theta < 360) {
+    // call this function before you want to make a set of transformations to your drawing 
     pushMatrix(); 
   
     // applies a translation to your drawing, 
     // if you imagine your drawing as a piece of paper with a grid layed over it, then this corresponds to shifting the grid so its corner is now in the middle of the paper
     translate(widthPixels/2.0, heightPixels/2.0); 
   
-    // applies a rotation to your drawing - imagine your are rotating the grid by the specified number of degrees
+    // applies a rotation to your drawing - imagine you are rotating the grid by the specified number of degrees
     rotate(radians(theta));
   
     // draws a rectangle (relative to the grid) 
@@ -115,7 +115,7 @@ String developerName="YourName";
 At the bottom of your code is the function called keyTyped. Processing calls this for you whenenver you type a key. Inside this function put:
 
 ```java
-int keyInt = int(key); // gets an integer telling you which key was pressed
+  int keyInt = int(key); // gets an integer telling you which key was pressed
   if (keyInt == 115) { //115 is the 's' key
     String name = developerName+hour()+minute()+second();
     saveFrame(name);
