@@ -43,8 +43,11 @@ Once you have made an image you are happy with you want to convert it to vector 
 ###Some useful tips if you got hooked on laser cutting and want to do more
 The laser can both cut and engrave. You can vector engrave along lines, which is exactly the same as cutting except that you the laser uses a lower power so as not to go all the way through. It can also engrave a bitmap, in which case it thresholds the pixels into black and white and scans backwards and forwards, flasing the laser on and off to only burn the black pixels.
 
-You don't have to code to make designs to laser cut. You can create them directly in a vector drawing package. You can draw it on paper and scan it, and trace it to get a vector as you did with your coded images. You can also create them in a vector drawing package or draw them on paper, scan them and use a vector package to trace them as we did with our coded images. The format you want to ultimately generate is .dxf.
+You don't have to code to make designs to laser cut. You can create them directly in a vector drawing package or you can draw them on paper, scan them, and trace them to get a vector as you did with your coded images. The format you want end up with is .dxf (and optionally a bitmap to bitmap engrave).
 
 Exporting .dxf seems to be somewhat unreliable in some vector drawing packages. Also if you get svg files from the internet and convert them to dxf, it may not always be obvious where the actual lines are that would get cut (as svg has things like fill that don't carry accross to dxf). If you are having issues with things not cutting like you thought they would, its worth installing librecad (librecad.org). You can use librecad to open you dxf's and see what they actually look like.
 
+Googling for 'beautiful laser cut' should yeild plenty of inspiration. If you're ispired for chrismas gifts, in addition to coasters, jewlery and keyrings, you can make very nice clocks. (The space has some $3 clock mechanisms), and all you have to do is ensure that your design has a hole the right size for the mechanism to fit through in the  middle. 
+
+In addition to bamboo, the laser can cut acrylic, leather, card & paper, corregated cardboard (for quick, cheap and large scuptures or prototypes), some fabrics and more. 
 
