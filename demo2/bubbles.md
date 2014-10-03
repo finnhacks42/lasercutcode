@@ -23,6 +23,7 @@ class Circle {
   
   public float distance(Circle other) {
 	 return WRITE SOME CODE HERE TO RETURN THE DISTANCE TO THE OTHER CIRCLE
+	 // you can get the x and y coordinates of the other circle with other.x and other.y
   }
   
   public void moveTo(float x, float y){
@@ -64,7 +65,7 @@ if (circles.size() == 0) {
 	for (Circle other: circles) {
       float d = c.distance(other);
       if (d < minDist) {
-        //TODO add codee to update minimum distance and closest circle
+        //TODO add code to update minimum distance and closest circle
       }
     }
     float angle = atan2(c.y - closest.y,c.x-closest.x);

@@ -82,6 +82,7 @@ void draw() {
     // call this when you have finished your transformations for this loop
     popMatrix();
   }
+}
 ```
 
 Ok we did quite a lot here. First we are making things move by applying transformations. Instead of trying to move the rectangle itself you can imagine we are moving the 'paper' behind it. Each time the draw function gets called, the value of the variable we named theta gets increased by 60. Once it gets to 365 (a full circle) we stop changing anything. 
